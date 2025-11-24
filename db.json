@@ -1,0 +1,36 @@
+{
+  "contacts": [
+    {
+      "id": "19a3",
+      "name": "جواد عزتی",
+      "work": "بازیگر",
+      "email": "javad@ezati.com",
+      "phone": "09223456789",
+      "isFavorite": false
+    },
+    {
+      "id": "8af1",
+      "name": "نگار جواهریان",
+      "work": "بازیگر",
+      "email": "negar@example.com",
+      "phone": "09333456789",
+      "isFavorite": false
+    },
+    {
+      "id": "fa3b",
+      "name": "علی احمدی",
+      "work": "UI/UX",
+      "email": "aliahmadi@example.com",
+      "phone": "09123456789",
+      "isFavorite": false
+    },
+    {
+      "id": "cb1c",
+      "name": "صدف",
+      "work": "ادمین",
+      "email": "sadaf@email.com",
+      "phone": "09333456789",
+      "isFavorite": false
+    }
+  ]
+}
