@@ -3,10 +3,11 @@
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://www.javascript.com/)
-[![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-EC5992?style=for-the-badge&logo=reacthookform&logoColor=white)](https://react-hook-form.com/)
+[![Formik](https://img.shields.io/badge/Formik-172B4D?style=for-the-badge&logo=formik&logoColor=white)](https://formik.org/)
+[![Yup](https://img.shields.io/badge/Yup-EC5992?style=for-the-badge&logo=yup&logoColor=white)](https://github.com/jquense/yup)
 [![JSON Server](https://img.shields.io/badge/JSON%20Server-000000?style=for-the-badge&logo=json-server&logoColor=white)](https://github.com/typicode/json-server)
 
-یک اپلیکیشن دفترچه تلفن مدرن و واکنش‌گرا که با ری‌اکت ساخته شده است. این پروژه نحوه مدیریت موثر state با استفاده از **Context API**، مدیریت فرم‌ها با **React Hook Form** و شبیه‌سازی یک بک‌اند قدرتمند با **JSON Server** را به نمایش می‌گذارد.
+یک اپلیکیشن دفترچه تلفن مدرن و واکنش‌گرا که با ری‌اکت ساخته شده است. این پروژه نحوه مدیریت موثر state با استفاده از **Context API**، مدیریت فرم‌ها با **Formik** و شبیه‌سازی یک بک‌اند قدرتمند با **JSON Server** را به نمایش می‌گذارد.
 
 ## 🌟 ویژگی‌ها
 
@@ -24,7 +25,8 @@
 
 - **Frontend:** React, JavaScript, CSS3
 - **State Management:** React Context API
-- **Form Handling:** React Hook Form
+- **Form Handling:** Formik
+- **Validation Handling:** Yup
 - **Backend Simulation:** JSON Server
 - **Package Manager:** npm
 
@@ -37,9 +39,17 @@
 
 برای اجرای این پروژه به صورت محلی، مراحل زیر را دنبال کنید:
 
-### ۱. کلون کردن پروژه
+###  کلون کردن پروژه
 
 ```bash
 git clone https://github.com/thehamid/hamid-amini-week-18
 cd react-contact-directory
 ```
+### اجرای سرور
+ 
+```bash 
+ json-server --watch db.json --port 3000
+``` 
+### 📜 لایسنس 
+
+This project is licensed under the MIT License.     
